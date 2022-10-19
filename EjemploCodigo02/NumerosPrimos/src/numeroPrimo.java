@@ -5,7 +5,7 @@ public class numeroPrimo {
         Scanner leer = new Scanner(System.in);
         //numero primos
         int limite;
-        System.out.println("Ingresa un numero porfavor: ");
+        System.out.println("Ingresa un numero: ");
         limite = leer.nextInt();
 
         for (int i = 1; i < limite; i++) {
